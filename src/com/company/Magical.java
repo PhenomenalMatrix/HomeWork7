@@ -1,4 +1,4 @@
 package com.company;
 
-public class Magical extends Player {
+public abstract class Magical extends Player implements SpecialAttack {
 }

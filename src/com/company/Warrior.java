@@ -1,5 +1,5 @@
 package com.company;
 
-public class Warrior extends Player {
+public abstract class Warrior extends Player implements SpecialAttack {
 
 }
