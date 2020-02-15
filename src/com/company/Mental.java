@@ -1,4 +1,8 @@
 package com.company;
 
-public abstract class Mental extends Player implements SpecialAttack {
+public class Mental extends Player implements SpecialAttack {
+    @Override
+    public String specialAttack() {
+        return "used Special Attack";
+    }
 }

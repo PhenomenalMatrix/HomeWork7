@@ -1,5 +1,9 @@
 package com.company;
 
-public abstract class Warrior extends Player implements SpecialAttack {
+public class Warrior extends Player implements SpecialAttack {
 
+    @Override
+    public String specialAttack() {
+        return "used Special Attack";
+    }
 }

@@ -1,4 +1,8 @@
 package com.company;
 
-public abstract class Magical extends Player implements SpecialAttack {
+public class Magical extends Player implements SpecialAttack {
+    @Override
+    public String specialAttack() {
+        return "used Special Attack";
+    }
 }
